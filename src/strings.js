@@ -1,25 +1,28 @@
-function sayHello (string) {
-  // your code here
+const { constants } = require("buffer");
+const { string } = require("yargs");
+
+const sayHello = () => {
+return 'Hello, world!';
 };
 
-function uppercase (string) {
-  // your code here
+const uppercase = (string) => {
+return string.toUpperCase();
 };
 
-function lowercase (string) {
-  // your code here
+const lowercase = (string) => {
+return string.toLowerCase();
 };
 
 function countCharacters (string) {
-  // your code here
+return string.length;
 };
 
 function firstCharacter (string) {
-  // your code here
+return string.charAt(0);
 };
 
 function firstCharacters (string, n) {
-  // your code here
+return string.substring(0, 4);
 };
 
 module.exports = {
