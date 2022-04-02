@@ -1,8 +1,8 @@
 const { constants } = require("buffer");
 const { string } = require("yargs");
 
-const sayHello = () => {
-return 'Hello, world!';
+const sayHello = (abc) => {
+return "Hello, " + (abc) + "!";
 };
 
 const uppercase = (string) => {
